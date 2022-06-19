@@ -1,0 +1,21 @@
+.contacts a {
+    display: flex;
+    align-items: center;
+    &:hover {
+        .contacts__icon {
+            fill: #FFBD30;
+        }
+    }
+}
+
+.contacts__icon {
+    margin-right: 16px;
+}
+
+.contacts__text {
+    font-style: normal;
+    font-weight: 700;
+    line-height: 18px;
+    color: #192144;
+    text-transform: uppercase;
+}

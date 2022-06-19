@@ -1,0 +1,19 @@
+.button {
+	display: block;
+    padding: 12px 0 8px;
+    border-radius: 25px;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 17px;
+	line-height: 30px;
+	text-align: center;
+	text-transform: uppercase;
+	color: #161c35;
+    background-color: #FFD74B;
+    &:hover {
+        background: #FFBD30;
+    }
+    &:active {
+        color: #161c3530;
+    }
+}
